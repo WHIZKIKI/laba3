@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  :focus, :active {
+    outline: none;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+  }
+  
+  nav, footer, header, aside {
+    display: block;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-style: inherit;
+    font-weight: 400;
+  }
+  
+  /*****************************************************/
+  .wrapper {
+    min-height: 100%;
+  }
+  
+  .header {
+    background: url("header.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-bottom: 40px;
+  }
+  
+  .header-text {
+    font-size: 15px;
+    font-size: 70px;
+    color: #252424;
+    font-weight: 900;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .subheader-text {
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+  a {
+    padding: 9px 22px;
+    border: 2px solid transparent;
+  }
+  
+  .btn {
+    outline: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+  .btn a {
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: #fff;
+    padding: 9px 22px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .btn a:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .box-container {
+    padding: 80px 0px;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.06);
+    border-radius: 3px;
+    background: #b4f0ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: -40px;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  .box-item {
+    width: 33.3%;
+  }
+  
+  .item-counter {
+    font-size: 50px;
+    font-weight: 900;
+    color: #444;
+    line-height: 48px;
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  
+  .item-text {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .card-item {
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+    background: #f3f3f3;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    width: 90%;
+  }
+  
+  .card-item-text {
+    min-height: 80px;
+  }
+  .card-item-text h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: rgb(112, 98, 241);
+    font-weight: 400;
+    font-family: monospace;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  @media (orientation: landscape) and (min-width: 900px) {
+    .card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 97%;
+      margin: 0 auto;
+      gap: 30px;
+    }
+    .card-item {
+      box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+      background: #f3f3f3;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-item img {
+      width: 100%;
+    }
+  }
+  .footer {
+    background: #f9f9f9;
+    padding: 70px 0px;
+  }
+  
+  .footer-container h2 {
+    text-align: center;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .footer-container .btn {
+    margin-bottom: 50px;
+  }
+  
+  .copy-right {
+    text-align: center;
+    color: #6378f2;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+  }
